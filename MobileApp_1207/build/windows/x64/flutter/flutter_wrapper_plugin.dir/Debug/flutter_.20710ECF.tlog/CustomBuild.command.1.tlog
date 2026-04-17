@@ -1,0 +1,10 @@
+^E:\6TH SEMESTER\MAD\FLUTTER_PROGRAMMING\MOBILEAPP_1207\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/6th Semester/MAD/Flutter_Programming/MobileApp_1207/windows" "-BE:/6th Semester/MAD/Flutter_Programming/MobileApp_1207/build/windows/x64" --check-stamp-file "E:/6th Semester/MAD/Flutter_Programming/MobileApp_1207/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
